@@ -18,3 +18,4 @@ jobs:
 
       - name: 가져온 스크립트 실행
         run: bash shared/scripts/version.sh
+      - run: ls -la && echo "---" && ls -la shared
