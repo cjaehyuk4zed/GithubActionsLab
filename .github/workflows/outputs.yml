@@ -1,4 +1,4 @@
-name: Lab3 outputs - test
+name: Lab3 outputs
 on:
   workflow_dispatch:
 
