@@ -15,7 +15,7 @@ jobs:
           - Debug
           - Release
     steps:
-      - uses: actions/checkout@v7x
+      - uses: actions/checkout@v7
       - run: make test
       - run: make BUILD_TYPE=${{ matrix.build_type }}
       - uses: actions/upload-artifact@v7
